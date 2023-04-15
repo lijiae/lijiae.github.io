@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Iris Li</name>
               </p>
-              <p>I'm now a master student at Institute of Information Engineering ([IIE](http://www.iie.ac.cn/>)), University of Chinese Academy of Sciences ([UCAS](https://english.ucas.ac.cn/>)). I completed my B.E. in CS from [WHUT](https://whut.edu.cn) (2017-2021).
+              <p>I'm now a master student at Institute of Information Engineering <a href="http://www.iie.ac.cn">[IIE]</a>, University of Chinese Academy of Sciences <a href="https://english.ucas.ac.cn">[UCAS]</a>. I completed my B.E. in CS from <a href="https://whut.edu.cn">[WHUT]</a>> (2017-2021).
               </p>
               <p>
                 My research interests lie around Computer Vision(CV), especially in the field of facial image tasks. In detail, my research interests include face image generation, edition and interpretability. I'm particularly interested in Fairness in the face task.
@@ -31,6 +31,7 @@
               <p style="text-align:center">
                 <a href="lijia1999@iie.ac.cn">Email</a> &nbsp/&nbsp
                 <a href="https://www.zhihu.com/people/rumin2t">zhihu</a>
+
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -160,6 +161,47 @@
       </td>
     </tr>
 
+    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/MalleConv_after.jpg' width="160"></div>
+                <img src='images/MalleConv_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://yifanjiang.net/MalleConv.html">
+                <papertitle>Fast and High-Quality Image Denoising via Malleable Convolutions</papertitle>
+              </a>
+              <br>
+              <a href="https://yifanjiang.net/">Yifan Jiang</a>,
+              <a href="https://bartwronski.com/">Bartlomiej Wronski</a>,
+							<a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
+              <strong>Jonathan T. Barron</strong>,
+              <a href="https://spark.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang Wang</a>,
+              <a href="https://tianfan.info/">Tianfan Xue</a>
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              <a href="https://yifanjiang.net/MalleConv.html">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2201.00392">arXiv</a>
+              <p></p>
+              <p>
+              We denoise images efficiently by predicting spatially-varying kernels at low resolution and using a fast fused op to jointly upsample and apply these kernels at full resolution.
+              </p>
+            </td>
+          </tr>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -172,11 +214,6 @@
             </td>
           </tr>
         </tbody></table>
-
-
-
-
-
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
