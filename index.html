@@ -53,8 +53,8 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-    
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
+
+          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <img src='images/zipnerf.jpg' width="160">
@@ -80,75 +80,55 @@
       </td>
     </tr>
 
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/zipnerf.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function zipnerf_start() {
-            document.getElementById('zipnerf_image').style.opacity = "1";
-          }
+          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
 
-          function zipnerf_stop() {
-            document.getElementById('zipnerf_image').style.opacity = "0";
-          }
-          zipnerf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a>
-          <papertitle>Face anti-counterfeiting——Deepfake System</papertitle>
-        </a>
-        <p>
-          We designed and implemented some GAN-Based face editing methods(conditioned and unconditioned) for local face attribute and global face attribute and applied it to video. The quality and efficiency of face generation is evaluated to meet the requirements of engineering applications.
-        </p>
-      </td>
-    </tr>
-		
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/zipnerf.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function zipnerf_start() {
-            document.getElementById('zipnerf_image').style.opacity = "1";
-          }
-
-          function zipnerf_stop() {
-            document.getElementById('zipnerf_image').style.opacity = "0";
-          }
-          zipnerf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a>
-          <papertitle>Research on image segmentation driven by visual common sense</papertitle>
-        </a>
-        <p>
-          Excellent graduation project
-        </p>
-        <p>
-          Implemented a method to improve the effect of weakly supervised image segmentation through causal visual analysis.
-        </p>
-      </td>
-    </tr>
 
           <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='samurai_image'>
+                <div class="two" id='seg'>
                   <img src='images/samurai_after.jpg' width="160"></div>
                 <img src='images/samurai_before.jpg' width="160">
               </div>
               <script type="text/javascript">
                 function samurai_start() {
-                  document.getElementById('samurai_image').style.opacity = "1";
+                  document.getElementById('ship').style.opacity = "1";
                 }
 
                 function samurai_stop() {
-                  document.getElementById('samurai_image').style.opacity = "0";
+                  document.getElementById('ship').style.opacity = "0";
+                }
+                samurai_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Research on image segmentation driven by visual common sense</papertitle>
+              </a>
+              <br>
+                <p>
+                  Excellent graduation project
+                </p>
+                <p>
+                  Implemented a method to improve the effect of weakly supervised image segmentation through causal visual analysis.
+                </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ship'>
+                  <img src='images/samurai_after.jpg' width="160"></div>
+                <img src='images/samurai_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function samurai_start() {
+                  document.getElementById('ship').style.opacity = "1";
+                }
+
+                function samurai_stop() {
+                  document.getElementById('ship').style.opacity = "0";
                 }
                 samurai_stop()
               </script>
