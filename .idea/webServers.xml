@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e96d03d-6fde-42e8-8a62-ebccafaebede" name="34">
+        <fileTransfer rootFolder="/home/visionx/EXT-1/lijia" accessType="SFTP" host="10.26.13.34" port="22" sshConfigId="7d2060de-8080-4999-aa81-f4cfe2b1fb84" sshConfig="visionx@10.26.13.34:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
